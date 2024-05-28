@@ -77,6 +77,9 @@ function setup() {
   targetNumber = getRandomNumber(1, 100);
   console.log(`target number: ${targetNumber}`);
 
+  // Reset number of attempts
+  attempts = 0;
+
   // Enable the input and submit button
   submitButton.disabeld = false;
   guessInput.disabled = false;
